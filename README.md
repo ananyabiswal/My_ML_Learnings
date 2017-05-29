@@ -38,3 +38,6 @@ Ideally, the tree should perform similarly on both known and unknown data.
 - Machine learning identifies patterns using statistical learning and computers by unearthing boundaries in data sets. You can use it to   make predictions.
 - One method for making predictions is called a decision trees, which uses a series of if-then statements to identify boundaries and       define patterns in the data.
 - Overfitting happens when some boundaries are based on on distinctions that don't make a difference. You can see if a model overfits by   having test data flow through the model.
+## Probabilistic vs Deterministic Model:
+A **deterministic mathematical** model is meant to yield a single solution describing the outcome of some "experiment" given appropriate inputs. 
+A **probabilistic model** is, instead, meant to give a distribution of possible outcomes (i.e. it describes all outcomes and gives some measure of how likely each is to occur).
