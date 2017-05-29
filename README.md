@@ -41,3 +41,37 @@ Ideally, the tree should perform similarly on both known and unknown data.
 ## Probabilistic vs Deterministic Model:
 A **deterministic mathematical** model is meant to yield a single solution describing the outcome of some "experiment" given appropriate inputs. 
 A **probabilistic model** is, instead, meant to give a distribution of possible outcomes (i.e. it describes all outcomes and gives some measure of how likely each is to occur).
+
+****************************************************************************************************************************
+
+## MACHINE LEARNING
+ Machine Learning can be termed as a process of inculcating the property of continuous learning and adaption (prediction and forecasting of events or value of variable) in machines. In addition to this the results should move towards realistic and accurate results in due course of time. A very good example would be playing a certain game(eg chess) in which we might win the initial games very easily  but after a couple of games we might even reach a situation where it is near  to impossible to win. The game was not initially designed by developer considering all possible infinite moves but in due course the game learns and applies the deduced learning to win. A similar instance is when initially when we get into production we have little or sometimes no knowledge about the project .We are given KT(learning) and we use it to do the task assigned. When we sometimes are unable to do the work our colleagues rectify it (improvement to get accurate results) and we learn from them. After a certain period of time we are able to solve every problem and we learn ways to solve new challenges by using previous knowledge. Learning is continuous.
+  
+## WHY MACHINE LEARNING?
+Learning of machines are significant when
+1) Human expertise is not sufficient and enough (navigating on Saturn)
+2) Humans lack the ability to demonstrate their expertise (speech recognition)
+3) Solution is stochastic or is temporal (stock market or gold price)
+4) Solution needs to be adjusted to specific classes (user biometrics)
+  Machine learning is the application of combination of mathematics and statistics to build intelligent machines.
+## TYPES OF MACHINE LEARNING
+Machine learning can be classified into following types:-
+1) Supervised machine learning-
+A training set is given with the correct value of the target attribute. Based on this the model generalizes to find the value of the target value based on the change in input variables. This techniques in other words is learning from examples. Regression and classification fall under this category. Example in real life is how a child learns what is red as explained above.
+ 
+2) Unsupervised machine learning-
+When the correct value (label) of the attributes is not given it is termed as supervised learning.eg clustering.
+This technique can be used to study the purchasing pattern of customers, pattern recognition etc.
+ 
+3) Reinforcement Learning –
+This techniques lies between supervised (known target value for training set) and unsupervised machine learning (unknown target value). The machine is told when it is wrong but it is not told how to rectify the issue. It has to use varied and intelligent methods in order to get the correct result. For example you are developer in a project. Tester identifies a bug. He just tells the bug and then you have to rectify it by using various intelligent sources or methods. This is why this technique is sometimes called learning with critic. 
+ 
+4) Evolutionary Learning-
+Evolution in biology is also an effective learning process. Organisms accustom their chance of having offspring and improve survival rates. Various algorithms have been developed such as artificial bee colony optimization, swarm optimization, ant colony optimization.
+We would now understand regression which is a machine learning technique.
+## REGRESSION
+This is a widely used technique which proceeds by building an equation to study the relationship between one or more dependent variable and
+an independent variable. For example If we want to predict the forest area burnt (target variable/dependent variable) it would depend on a number of various factors such as the rain, season, month, temperature, altitude etc. Thus our main aim would be to construct an equation which would contain the minimum number of dependent attribute that have a high significance in the estimation of the target attribute. The main objective here would be construction of a model which is robust and a highly predictive model.
+ 
+## SIMPLE LINEAR REGRESSION
+It is a simple model that is made by considering one dependent (response) Y and one independent variable (regressor) X. The sales of a company depends on the amount of money that is spend on the advertisement. In the above equation Y is the sales and X is the advertisement cost. We can see than there will be an error from the exact sales which is denoted by €.For some value of X (regressor variable) we will get some value of Y (response variable).A very important point to note here is that even if there is no advertisement i.e is the value of X is 0 then also there is some value of sales which is denoted by β0. 
